@@ -1,0 +1,25 @@
+Khai báo và khởi tạo/gán giá trị biến chuỗi nào sau đây là đúng (Có thể chọn nhiều đáp án)
+a. char s[100]; s="Hello"
+b. char s[]="Hello"
+c. char []s="Hello" 
+d. char s[100] = "Hello"
+
+a. char s[100]; s="Hello"
+Sai:
+Không thể gán một chuỗi (chuỗi ký tự "Hello") trực tiếp cho một mảng ký tự (s) sau khi đã khai báo.
+Trong C/C++, mảng không hỗ trợ phép gán trực tiếp sau khi đã khai báo. Nên cần chú ý. 
+
+b. char s[]="Hello"
+Đúng:
+Khi khai báo s mà không chỉ rõ kích thước, trình biên dịch sẽ tự động xác định kích thước mảng dựa trên chuỗi "Hello". 
+Chuỗi này bao gồm 5 ký tự cộng thêm 1 ký tự null ('\0'), nên kích thước của s sẽ là 6.
+
+c. char []s="Hello" 
+Sai:
+Lỗi cú pháp.
+
+d. char s[100] = "Hello"
+Đúng:
+Khai báo mảng s có kích thước 100 và khởi tạo chuỗi "Hello" vào phần đầu của mảng. 
+Các phần tử còn lại trong mảng sẽ được khởi tạo ngầm định (thường là giá trị rác nếu không được khởi tạo rõ ràng).
+
