@@ -1,0 +1,17 @@
+Lệnh nào sau đây để lấy địa chỉ đầu tiên của mảng 1 chiều myList?
+myList+1 
+myList[0]
+myList
+&myList[0]
+Có thể chọn nhiều đáp án
+
+> myList
+- Tên của mảng bản chất chính (mặc định) là một /con trỏ/ trỏ đến phần tử đầu tiên của mảng.
+- Vì vậy, myList trả về địa chỉ của phần tử đầu tiên của mảng.
+> &myList[0]
+- myList[0] là giá trị của phần tử đầu tiên của mảng, và &myList[0] là địa chỉ của phần tử đầu tiên.
+- Kết quả của &myList[0] tương tự như myList.
+Nên đây là đáp án đúng. 
+
+myList + 1 là trỏ đến phần tử chỉ số 1 (thứ 2) của mảng.
+mylist[0] khai báo giá trị đầu tiên của mảng. 
