@@ -1,0 +1,20 @@
+Khai báo mảng 2 chiều như sau: int a[4][3];
+Địa chỉ của giá trị a[2][0] tương ứng với cách viết nào sau đây? (có thể chọn nhiều đáp án đúng)
+a. a[2]
+b. a[2][0]
+c. &a[2][0] 
+d. a+2
+
+a[2]
+Đây là địa chỉ của hàng thứ 2 (chỉ mục bắt đầu từ 0). 
+Trong trường hợp này, a[2] là một con trỏ đến hàng thứ 2 của mảng, tương ứng với địa chỉ phần tử đầu tiên của hàng thứ 2 (tức là &a[2][0]).
+Đúng.
+
+&a[2][0]
+Đây là địa chỉ của phần tử dòng 2, cột 0. Biểu thức này chính xác biểu diễn địa chỉ phần tử được yêu cầu.
+Đúng.
+
+a+2
+Đây là địa chỉ của hàng thứ 2 trong mảng. Cụ thể, vì a là địa chỉ của hàng đầu tiên (tức là a[0]), a+2 dịch chuyển con trỏ đến hàng thứ 2
+Tương tự như "&a[2]" hoặc a[2].
+Đúng.
