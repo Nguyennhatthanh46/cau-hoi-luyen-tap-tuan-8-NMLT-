@@ -21,3 +21,4 @@ dest = s+2: /Điểm đến/ bắt đầu từ vị trí thứ 2 (ký tự 'p').
 src = s+3: /Nguồn/ bắt đầu từ vị trí thứ 3 (ký tự 'p'). s[3]
 n = 2: Sao chép 2 ký tự từ src sang dest.
 Khi đó: h.a.p.p.y thành h.a.p.p.y. 
+*/
