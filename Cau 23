@@ -1,0 +1,6 @@
+Cho biết địa chỉ của phần tử A[1][1][1] nằm liền sau địa chỉ của phần tử nào sau đây trong mảng A:
+a.  A[1][2][1] 
+b.  A[1][1][0] 
+c.  A[0][1][1] 
+d.  A[1][0][1]
+//Đáp án: A[1][1][0] do nó liền trước cột. Khi xét 1 phần tử ta xét tiêu chí từ trong ra cột - hàng - tầng. 
