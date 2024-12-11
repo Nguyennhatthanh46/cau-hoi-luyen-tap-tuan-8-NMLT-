@@ -1,0 +1,13 @@
+Hoàn thành đoạn chương trình sao để kết quả hiển thị ra màn hình chuỗi "IT" (chỉ hiển thị giá trị ghi trong dấu nháy kép, không hiển thị dấu nháy kép):
+
+#include<iostream>
+using namespace std;
+int main() { char <1> = "UIT"; cout << <2> << " "; return 0;
+}
+a. Vị trí [1] và [2] lần lượt là: s, s
+b. Vị trí [1] và [2] lần lượt là: s, s+1 
+c. Vị trí [1] và [2] lần lượt là: s[], s+1
+d. Vị trí [1] và [2] lần lượt là: *s, s
+Đáp án đúng là câu b.
+s[] là vị trí khai báo mảng chuỗi kí tự.
+s + 1 là con trỏ trỏ đến phần tử thứ 1. Là chữ I. Khi kết hợp với cout, nó sẽ in ra đến các phần tử cho đến khi gặp '\0' thì kết thúc. Đó là chữ IT. 
